@@ -5,12 +5,15 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "ZenDev",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/b203c4bd28604e7689512c27f81e1945"
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
 		},
 		{
-			"Name": "ModelingToolsEditorMode",
+			"Name": "Volumetrics",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraExtras",
 			"Enabled": true
 		}
 	]
