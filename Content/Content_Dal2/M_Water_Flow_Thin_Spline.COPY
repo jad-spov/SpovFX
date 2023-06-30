@@ -1,0 +1,679 @@
+Begin Object Class=/Script/Engine.Material Name="M_Water_Flow_Thin_Spline"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSphereMask Name="MaterialExpressionSphereMask_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSphereMask Name="MaterialExpressionSphereMask_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReroute Name="MaterialExpressionReroute_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionReflectionVectorWS Name="MaterialExpressionReflectionVectorWS_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPower Name="MaterialExpressionPower_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionParticleColor Name="MaterialExpressionParticleColor_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionPanner Name="MaterialExpressionPanner_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_9"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_13"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_12"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFloor Name="MaterialExpressionFloor_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDynamicParameter Name="MaterialExpressionDynamicParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDotProduct Name="MaterialExpressionDotProduct_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDepthFade Name="MaterialExpressionDepthFade_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_6"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionCameraVectorWS Name="MaterialExpressionCameraVectorWS_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_2"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTime_0"
+      MaterialExpressionEditorX=-2352
+      MaterialExpressionEditorY=-128
+      MaterialExpressionGuid=1D84DE164459AC82E665C39DE55FD7F2
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_1"
+      ParameterName="Mask"
+      ExpressionGUID=AA062BBF4FC232295AAAC6A05F6DA262
+      Coordinates=(Expression=MaterialExpressionPanner'"M_Water_Flow_Thin_Spline:MaterialExpressionPanner_0"')
+      Texture=Texture2D'"/Game/FX/Textures/Water/T_Water_Flow_Thin_M.T_Water_Flow_Thin_M"'
+      SamplerType=SAMPLERTYPE_Masks
+      MaterialExpressionEditorX=-1664
+      MaterialExpressionEditorY=-240
+      MaterialExpressionGuid=12BF2B2D4799E1D50A2CA78C3AD76B26
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+      Desc="R = Opacity, G = Variation"
+      bCommentBubbleVisible=True
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="Normal"
+      ExpressionGUID=65609B1942CC90CBA0A8A0A1588504BF
+      Coordinates=(Expression=MaterialExpressionPanner'"M_Water_Flow_Thin_Spline:MaterialExpressionPanner_0"')
+      Texture=Texture2D'"/Game/FX/Textures/Water/T_Water_Flow_Thin_N.T_Water_Flow_Thin_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-1328
+      MaterialExpressionEditorY=288
+      MaterialExpressionGuid=C79B3D5F4EC57AED3266CC8131BEB5B6
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'"/Game/FX/Textures/Masks/T_SoftEdge_M.T_SoftEdge_M"'
+      MaterialExpressionEditorX=-688
+      MaterialExpressionEditorY=-400
+      MaterialExpressionGuid=0E4AE8074DAAF2A12C208CA7D6A95FE8
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Coordinates=(Expression=MaterialExpressionReflectionVectorWS'"M_Water_Flow_Thin_Spline:MaterialExpressionReflectionVectorWS_0"')
+      Texture=TextureCube'"/Game/FX/Textures/CubeMaps/T_Agora_Cube_Small.T_Agora_Cube_Small"'
+      SamplerType=SAMPLERTYPE_LinearColor
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=-992
+      MaterialExpressionGuid=9B1766384D5BE97C892170A302389A65
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_2"
+      VTiling=2.500000
+      MaterialExpressionEditorX=-2128
+      MaterialExpressionEditorY=-208
+      MaterialExpressionGuid=8C1D76AE40CE57080D32C7A569BD23BB
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_1"
+      MaterialExpressionEditorX=-2464
+      MaterialExpressionEditorY=304
+      MaterialExpressionGuid=C02F5EC343EABE84EB5D51BF387CA18C
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionSphereMask_5"
+      A=(Expression=MaterialExpressionComponentMask'"M_Water_Flow_Thin_Spline:MaterialExpressionComponentMask_11"')
+      B=(Expression=MaterialExpressionConstant'"M_Water_Flow_Thin_Spline:MaterialExpressionConstant_4"')
+      AttenuationRadius=0.500000
+      HardnessPercent=0.000000
+      MaterialExpressionEditorX=-1968
+      MaterialExpressionEditorY=496
+      MaterialExpressionGuid=F62E6987431A4C1ACD45388FAE806BB7
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionSphereMask_4"
+      A=(Expression=MaterialExpressionComponentMask'"M_Water_Flow_Thin_Spline:MaterialExpressionComponentMask_10"')
+      B=(Expression=MaterialExpressionConstant'"M_Water_Flow_Thin_Spline:MaterialExpressionConstant_3"')
+      AttenuationRadius=0.250000
+      HardnessPercent=0.000000
+      MaterialExpressionEditorX=-1968
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=F62E6987431A4C1ACD45388FAE806BB7
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=20.000000
+      ParameterName="SplineWidth"
+      ExpressionGUID=58E0B6FD4E2207737B1AAEA86571703D
+      MaterialExpressionEditorX=-1536
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=98CB0A194B1BEC5509735CB10B583BCC
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionReroute_0"
+      Input=(Expression=MaterialExpressionDynamicParameter'"M_Water_Flow_Thin_Spline:MaterialExpressionDynamicParameter_0"',OutputIndex=1,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-2848
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=C8FD23734C9F56AF21C7309478523EFF
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionReflectionVectorWS_0"
+      MaterialExpressionEditorX=-1040
+      MaterialExpressionEditorY=-1008
+      MaterialExpressionGuid=BC3E52C84A6CCC4DC0A1F7954050FEB5
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionPower_0"
+      Base=(Expression=MaterialExpressionDotProduct'"M_Water_Flow_Thin_Spline:MaterialExpressionDotProduct_2"')
+      ConstExponent=3.000000
+      MaterialExpressionEditorX=-624
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=C901ECB04D34B564FD6C8CA572580B43
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionParticleColor_0"
+      MaterialExpressionEditorX=-1664
+      MaterialExpressionEditorY=-576
+      MaterialExpressionGuid=457EABC141C9828A222561BD7570D8D2
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_7"
+      Coordinate=(Expression=MaterialExpressionTextureCoordinate'"M_Water_Flow_Thin_Spline:MaterialExpressionTextureCoordinate_1"')
+      Time=(Expression=MaterialExpressionMaterialFunctionCall'"M_Water_Flow_Thin_Spline:MaterialExpressionMaterialFunctionCall_6"')
+      SpeedY=0.500000
+      MaterialExpressionEditorX=-2272
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=6358D3B34871551331CD6FA6115D3741
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_6"
+      Coordinate=(Expression=MaterialExpressionTextureCoordinate'"M_Water_Flow_Thin_Spline:MaterialExpressionTextureCoordinate_1"')
+      Time=(Expression=MaterialExpressionMaterialFunctionCall'"M_Water_Flow_Thin_Spline:MaterialExpressionMaterialFunctionCall_7"')
+      SpeedY=1.000000
+      MaterialExpressionEditorX=-2272
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=6358D3B34871551331CD6FA6115D3741
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_0"
+      Coordinate=(Expression=MaterialExpressionTextureCoordinate'"M_Water_Flow_Thin_Spline:MaterialExpressionTextureCoordinate_2"')
+      Time=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_7"')
+      SpeedY=0.500000
+      MaterialExpressionEditorX=-1888
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=D9752C744FAB1FB1761F4FAAF2A6680E
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_9"
+      A=(Expression=MaterialExpressionScalarParameter'"M_Water_Flow_Thin_Spline:MaterialExpressionScalarParameter_0"')
+      B=(Expression=MaterialExpressionLinearInterpolate'"M_Water_Flow_Thin_Spline:MaterialExpressionLinearInterpolate_5"')
+      MaterialExpressionEditorX=-1392
+      MaterialExpressionEditorY=48
+      MaterialExpressionGuid=02730CE94CFA5DD8FA2E4EBDB6D5912F
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_8"
+      A=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_9"')
+      B=(Expression=MaterialExpressionDynamicParameter'"M_Water_Flow_Thin_Spline:MaterialExpressionDynamicParameter_0"',OutputIndex=2,Mask=1,MaskB=1)
+      MaterialExpressionEditorX=-1264
+      MaterialExpressionEditorY=96
+      MaterialExpressionGuid=3C166168430D82244D7EE1BCBC04552D
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_7"
+      A=(Expression=MaterialExpressionAdd'"M_Water_Flow_Thin_Spline:MaterialExpressionAdd_4"')
+      B=(Expression=MaterialExpressionDynamicParameter'"M_Water_Flow_Thin_Spline:MaterialExpressionDynamicParameter_0"',OutputIndex=1,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-2048
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=053B667145F60832D4235D995C471DF0
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_6"
+      A=(Expression=MaterialExpressionTextureSample'"M_Water_Flow_Thin_Spline:MaterialExpressionTextureSample_3"',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_0"')
+      MaterialExpressionEditorX=-496
+      MaterialExpressionEditorY=-256
+      MaterialExpressionGuid=B5F43DC347F0C06A65D2D49C254AD674
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_5"
+      A=(Expression=MaterialExpressionTextureSample'"M_Water_Flow_Thin_Spline:MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ConstB=0.600000
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=-992
+      MaterialExpressionGuid=5472DD964AFBD9F952C4F9B24277124C
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_4"
+      A=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_6"')
+      B=(Expression=MaterialExpressionClamp'"M_Water_Flow_Thin_Spline:MaterialExpressionClamp_1"')
+      ConstB=0.500000
+      MaterialExpressionEditorX=-272
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=BFC039C842A2593FBA4B88BFCB74BA40
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionParticleColor'"M_Water_Flow_Thin_Spline:MaterialExpressionParticleColor_0"',OutputIndex=4,Mask=1,MaskA=1)
+      ConstB=3.000000
+      MaterialExpressionEditorX=-1408
+      MaterialExpressionEditorY=-448
+      MaterialExpressionGuid=D8091EF04A4568FB7EA2548A36C416FD
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionLinearInterpolate'"M_Water_Flow_Thin_Spline:MaterialExpressionLinearInterpolate_1"')
+      B=(Expression=MaterialExpressionParticleColor'"M_Water_Flow_Thin_Spline:MaterialExpressionParticleColor_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-448
+      MaterialExpressionEditorY=-592
+      MaterialExpressionGuid=863CCF974F1646F0A632A5914B997AA1
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_13"
+      A=(Expression=MaterialExpressionReroute'"M_Water_Flow_Thin_Spline:MaterialExpressionReroute_0"')
+      B=(Expression=MaterialExpressionConstant'"M_Water_Flow_Thin_Spline:MaterialExpressionConstant_6"')
+      MaterialExpressionEditorX=-2592
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=D93DBF8F441E7AC60D5E7CB8D2CF2217
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_12"
+      A=(Expression=MaterialExpressionReroute'"M_Water_Flow_Thin_Spline:MaterialExpressionReroute_0"')
+      B=(Expression=MaterialExpressionConstant'"M_Water_Flow_Thin_Spline:MaterialExpressionConstant_5"')
+      MaterialExpressionEditorX=-2592
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=D93DBF8F441E7AC60D5E7CB8D2CF2217
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'"M_Water_Flow_Thin_Spline:MaterialExpressionTextureSampleParameter2D_1"',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=MaterialExpressionFloor'"M_Water_Flow_Thin_Spline:MaterialExpressionFloor_1"')
+      MaterialExpressionEditorX=-992
+      MaterialExpressionEditorY=-176
+      MaterialExpressionGuid=BA6C2664465600B8746BC59A064C5766
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionClamp'"M_Water_Flow_Thin_Spline:MaterialExpressionClamp_0"')
+      B=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_1"')
+      MaterialExpressionEditorX=-832
+      MaterialExpressionEditorY=-224
+      MaterialExpressionGuid=4A84C4AB4722CA13DEFD20A8D0ABE813
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_7"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.DebugTimeSine"'
+      FunctionInputs(0)=(ExpressionInputId=B9000E2C4113026008A1B8A9C95D80FE,Input=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_12"',InputName="Speed"))
+      FunctionOutputs(0)=(ExpressionOutputId=1764AB1D466DDA5DAAC3698A95DF4D12,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-2480
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=4DF67D6242058CA1E7DD6B8DC9AA141F
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_6"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.DebugTimeSine"'
+      FunctionInputs(0)=(ExpressionInputId=B9000E2C4113026008A1B8A9C95D80FE,Input=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_13"',InputName="Speed"))
+      FunctionOutputs(0)=(ExpressionOutputId=1764AB1D466DDA5DAAC3698A95DF4D12,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-2480
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=4DF67D6242058CA1E7DD6B8DC9AA141F
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'"/Game/FX/Materials/Functions/FX_EmissiveModulate.FX_EmissiveModulate"'
+      FunctionInputs(0)=(ExpressionInputId=97A5E8C9451DBF7FBCBCBCBB7A5377CA,Input=(Expression=MaterialExpressionAdd'"M_Water_Flow_Thin_Spline:MaterialExpressionAdd_2"',InputName="In"))
+      FunctionOutputs(0)=(ExpressionOutputId=4FB6A48D4A693488FA2F29A4A211E00A,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-96
+      MaterialExpressionEditorY=-688
+      MaterialExpressionGuid=588B84DD4395D00951B0B8A380492423
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_0"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SplineThicken.SplineThicken"'
+      FunctionInputs(0)=(ExpressionInputId=A18AC3404DD3448C089F0E91DF50FD2C,Input=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_8"',InputName="WidthBase"))
+      FunctionInputs(1)=(ExpressionInputId=16392A1B46AC10B7D7BCFDB36DE2B3C1,Input=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_8"',InputName="WidthTip"))
+      FunctionInputs(2)=(ExpressionInputId=35C740B34DD99E15E0215E867BBEDD83,Input=(OutputIndex=-1,InputName="WorldPosition"))
+      FunctionInputs(3)=(ExpressionInputId=A736AC314879172D597738AB3B83D87D,Input=(OutputIndex=-1,InputName="UVs for Projection"))
+      FunctionInputs(4)=(ExpressionInputId=5A27846447D504909236C69FBC6CF1CE,Input=(OutputIndex=-1,InputName="UVs for Thickness"))
+      FunctionInputs(5)=(ExpressionInputId=6E2C79CE408C3713FAE6589181BF61BC,Input=(OutputIndex=-1,InputName="UVs for texturing"))
+      FunctionInputs(6)=(ExpressionInputId=99EA158B48C38901BD1725945892CFCE,Input=(OutputIndex=-1,InputName="Expand U or V UV Channel"))
+      FunctionInputs(7)=(ExpressionInputId=4080FE0E4303E8BCC778A2BF3F3E9D05,Input=(OutputIndex=-1,InputName="DeriveNormalZ"))
+      FunctionInputs(8)=(ExpressionInputId=FA0D1138453E6F73196B799C4C0D3178,Input=(OutputIndex=-1,InputName="AngleCorrectedNormals"))
+      FunctionInputs(9)=(ExpressionInputId=3FBF55E24115C7921A27239BDF22E1DD,Input=(Expression=MaterialExpressionTextureSampleParameter2D'"M_Water_Flow_Thin_Spline:MaterialExpressionTextureSampleParameter2D_0"',InputName="AdditionalNormal",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(10)=(ExpressionInputId=541E29094FF57D0E5C62B39DF67FE4ED,Input=(OutputIndex=-1,InputName="FlattenPixelNormal"))
+      FunctionInputs(11)=(ExpressionInputId=BA38E5DB49855FFEB5AA39BA1AA8F48A,Input=(OutputIndex=-1,InputName="UVs For NormalShading"))
+      FunctionOutputs(0)=(ExpressionOutputId=79FFC3194F18653418B1BBBF00590A74,Output=(OutputName="Normal"))
+      FunctionOutputs(1)=(ExpressionOutputId=7D6A756D4E2B5BD97BF907B51E2C2334,Output=(OutputName="WorldPositionOffset"))
+      FunctionOutputs(2)=(ExpressionOutputId=0B9A0E9C403693D3D44340A54D61BA1A,Output=(OutputName="UVs with Parallax"))
+      MaterialExpressionEditorX=-1104
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=7EE15C564C35C9E709E612A65BAE956A
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+      Outputs(0)=(OutputName="Normal")
+      Outputs(1)=(OutputName="WorldPositionOffset")
+      Outputs(2)=(OutputName="UVs with Parallax")
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_5"
+      Alpha=(Expression=MaterialExpressionLinearInterpolate'"M_Water_Flow_Thin_Spline:MaterialExpressionLinearInterpolate_4"')
+      ConstA=0.400000
+      ConstB=1.200000
+      MaterialExpressionEditorX=-1664
+      MaterialExpressionEditorY=368
+      MaterialExpressionGuid=98054AC24083408AC40A508963A57108
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_4"
+      A=(Expression=MaterialExpressionSphereMask'"M_Water_Flow_Thin_Spline:MaterialExpressionSphereMask_4"')
+      B=(Expression=MaterialExpressionSphereMask'"M_Water_Flow_Thin_Spline:MaterialExpressionSphereMask_5"')
+      MaterialExpressionEditorX=-1792
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=1F87DEEC4B44D342493FA7B514099E57
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_1"
+      A=(Expression=MaterialExpressionConstant3Vector'"M_Water_Flow_Thin_Spline:MaterialExpressionConstant3Vector_0"')
+      B=(Expression=MaterialExpressionConstant3Vector'"M_Water_Flow_Thin_Spline:MaterialExpressionConstant3Vector_1"')
+      Alpha=(Expression=MaterialExpressionTextureSampleParameter2D'"M_Water_Flow_Thin_Spline:MaterialExpressionTextureSampleParameter2D_1"',OutputIndex=2,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-592
+      MaterialExpressionEditorY=-656
+      MaterialExpressionGuid=8C7BC17C4649042467A679B1A2331D5E
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      Alpha=(Expression=MaterialExpressionDepthFade'"M_Water_Flow_Thin_Spline:MaterialExpressionDepthFade_0"')
+      ConstA=1.000000
+      ConstB=1.120000
+      MaterialExpressionEditorX=192
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=2ECFC51643620910E37596867978F8CA
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionFloor_1"
+      Input=(Expression=MaterialExpressionAdd'"M_Water_Flow_Thin_Spline:MaterialExpressionAdd_3"')
+      MaterialExpressionEditorX=-1104
+      MaterialExpressionEditorY=-128
+      MaterialExpressionGuid=E47BAF0F439DEF69D74FDEA53EBF69EA
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionDynamicParameter_0"
+      ParamNames(0)="Random"
+      ParamNames(1)="PanSpeed"
+      ParamNames(2)="SplineWidth"
+      MaterialExpressionEditorX=-2640
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=1228137D47692E6A2FC622A249908426
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+      Outputs(0)=(OutputName="Random")
+      Outputs(1)=(OutputName="PanSpeed")
+      Outputs(2)=(OutputName="SplineWidth")
+      Outputs(3)=(OutputName="Param4")
+   End Object
+   Begin Object Name="MaterialExpressionDotProduct_2"
+      A=(Expression=MaterialExpressionCameraVectorWS'"M_Water_Flow_Thin_Spline:MaterialExpressionCameraVectorWS_2"')
+      B=(Expression=MaterialExpressionMaterialFunctionCall'"M_Water_Flow_Thin_Spline:MaterialExpressionMaterialFunctionCall_0"')
+      MaterialExpressionEditorX=-720
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=48B065CB4322924DB28F2893C569D4EE
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionDepthFade_0"
+      InOpacity=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_4"')
+      FadeDistanceDefault=25.000000
+      MaterialExpressionEditorX=-160
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=8E3166DA47760D3D03A7B9A151F79FD9
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+      bCollapsed=True
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_1"
+      Constant=(R=0.131689,G=0.205967,B=0.240000,A=0.000000)
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=-656
+      MaterialExpressionGuid=2A2990A242FF069FDA542888D2BA2971
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=0.052975,G=0.054039,B=0.065000,A=0.000000)
+      MaterialExpressionEditorX=-816
+      MaterialExpressionEditorY=-800
+      MaterialExpressionGuid=0D56B42F4BAEC73637D6CCAEFF3C1905
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_6"
+      R=0.460000
+      MaterialExpressionEditorX=-2688
+      MaterialExpressionEditorY=528
+      MaterialExpressionGuid=F2297B2F4DBA1DE201322EA53A09EB2B
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_5"
+      R=0.310000
+      MaterialExpressionEditorX=-2688
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=0D54BE064BF95788224ADBA0B55A1614
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_4"
+      R=0.700000
+      MaterialExpressionEditorX=-2064
+      MaterialExpressionEditorY=544
+      MaterialExpressionGuid=99184FFF467C69A31B494C9D2E970ABD
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=1.000000
+      MaterialExpressionEditorX=-2064
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=5A4D03BB48EF0664BC353BAF5E19A978
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_11"
+      Input=(Expression=MaterialExpressionPanner'"M_Water_Flow_Thin_Spline:MaterialExpressionPanner_7"')
+      G=True
+      MaterialExpressionEditorX=-2128
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=88BCDB9C4694381A487EF7801C3BD3D7
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_10"
+      Input=(Expression=MaterialExpressionPanner'"M_Water_Flow_Thin_Spline:MaterialExpressionPanner_6"')
+      G=True
+      MaterialExpressionEditorX=-2128
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=88BCDB9C4694381A487EF7801C3BD3D7
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_2"
+      Input=(Expression=MaterialExpressionParticleColor'"M_Water_Flow_Thin_Spline:MaterialExpressionParticleColor_0"',OutputIndex=4,Mask=1,MaskA=1)
+      MaterialExpressionEditorX=-1440
+      MaterialExpressionEditorY=-320
+      MaterialExpressionGuid=E5F394B14AA52352FD5B5BBAFAD10DBF
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_1"
+      Input=(Expression=MaterialExpressionPower'"M_Water_Flow_Thin_Spline:MaterialExpressionPower_0"')
+      MaterialExpressionEditorX=-496
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=58A3B4DE4D34A8E5551766AB705A8980
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_0"
+      Input=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_3"')
+      MaterialExpressionEditorX=-1248
+      MaterialExpressionEditorY=-448
+      MaterialExpressionGuid=D693A154461C9172750D0089BCF0391D
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionCameraVectorWS_2"
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=433769574A98C919E748E59D8A7A97B8
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_4"
+      A=(Expression=MaterialExpressionTime'"M_Water_Flow_Thin_Spline:MaterialExpressionTime_0"')
+      B=(Expression=MaterialExpressionDynamicParameter'"M_Water_Flow_Thin_Spline:MaterialExpressionDynamicParameter_0"',Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-2160
+      MaterialExpressionEditorY=-64
+      MaterialExpressionGuid=CA617604493EC4D543E77A83DABDE578
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_3"
+      A=(Expression=MaterialExpressionClamp'"M_Water_Flow_Thin_Spline:MaterialExpressionClamp_2"')
+      B=(Expression=MaterialExpressionTextureSampleParameter2D'"M_Water_Flow_Thin_Spline:MaterialExpressionTextureSampleParameter2D_1"',OutputIndex=2,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-1200
+      MaterialExpressionEditorY=-128
+      MaterialExpressionGuid=1AEF0ACC4C223B96AAEDFC9742BD97A0
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_2"
+      A=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_5"')
+      B=(Expression=MaterialExpressionMultiply'"M_Water_Flow_Thin_Spline:MaterialExpressionMultiply_2"')
+      MaterialExpressionEditorX=-192
+      MaterialExpressionEditorY=-688
+      MaterialExpressionGuid=B9C5AC554CD7B79FD780DABE5543EB74
+      Material=Material'"M_Water_Flow_Thin_Spline"'
+   End Object
+   Normal=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"')
+   EmissiveColor=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"')
+   Opacity=(Expression=MaterialExpressionDepthFade'"MaterialExpressionDepthFade_0"')
+   BlendMode=BLEND_Translucent
+   ShadingModel=MSM_Unlit
+   WorldPositionOffset=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"',OutputIndex=1)
+   Refraction=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"')
+   TwoSided=True
+   DitherOpacityMask=True
+   bUsedWithMeshParticles=True
+   bUsesDistortion=True
+   EditorX=368
+   Expressions(0)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_0"'
+   Expressions(1)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"'
+   Expressions(2)=MaterialExpressionDepthFade'"MaterialExpressionDepthFade_0"'
+   Expressions(3)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(4)=MaterialExpressionMultiply'"MaterialExpressionMultiply_5"'
+   Expressions(5)=MaterialExpressionMultiply'"MaterialExpressionMultiply_4"'
+   Expressions(6)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(7)=MaterialExpressionParticleColor'"MaterialExpressionParticleColor_0"'
+   Expressions(8)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(9)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(10)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_1"'
+   Expressions(11)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_0"'
+   Expressions(12)=MaterialExpressionConstant3Vector'"MaterialExpressionConstant3Vector_1"'
+   Expressions(13)=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"'
+   Expressions(14)=MaterialExpressionReflectionVectorWS'"MaterialExpressionReflectionVectorWS_0"'
+   Expressions(15)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(16)=MaterialExpressionAdd'"MaterialExpressionAdd_2"'
+   Expressions(17)=MaterialExpressionPanner'"MaterialExpressionPanner_0"'
+   Expressions(18)=MaterialExpressionAdd'"MaterialExpressionAdd_3"'
+   Expressions(19)=MaterialExpressionFloor'"MaterialExpressionFloor_1"'
+   Expressions(20)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   Expressions(21)=MaterialExpressionMultiply'"MaterialExpressionMultiply_6"'
+   Expressions(22)=MaterialExpressionDynamicParameter'"MaterialExpressionDynamicParameter_0"'
+   Expressions(23)=MaterialExpressionTime'"MaterialExpressionTime_0"'
+   Expressions(24)=MaterialExpressionMultiply'"MaterialExpressionMultiply_7"'
+   Expressions(25)=MaterialExpressionAdd'"MaterialExpressionAdd_4"'
+   Expressions(26)=MaterialExpressionMultiply'"MaterialExpressionMultiply_8"'
+   Expressions(27)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_0"'
+   Expressions(28)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_1"'
+   Expressions(29)=MaterialExpressionCameraVectorWS'"MaterialExpressionCameraVectorWS_2"'
+   Expressions(30)=MaterialExpressionDotProduct'"MaterialExpressionDotProduct_2"'
+   Expressions(31)=MaterialExpressionClamp'"MaterialExpressionClamp_1"'
+   Expressions(32)=MaterialExpressionPower'"MaterialExpressionPower_0"'
+   Expressions(33)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_1"'
+   Expressions(34)=MaterialExpressionPanner'"MaterialExpressionPanner_6"'
+   Expressions(35)=MaterialExpressionSphereMask'"MaterialExpressionSphereMask_4"'
+   Expressions(36)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_10"'
+   Expressions(37)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_6"'
+   Expressions(38)=MaterialExpressionConstant'"MaterialExpressionConstant_3"'
+   Expressions(39)=MaterialExpressionPanner'"MaterialExpressionPanner_7"'
+   Expressions(40)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_11"'
+   Expressions(41)=MaterialExpressionSphereMask'"MaterialExpressionSphereMask_5"'
+   Expressions(42)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_4"'
+   Expressions(43)=MaterialExpressionConstant'"MaterialExpressionConstant_4"'
+   Expressions(44)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_7"'
+   Expressions(45)=MaterialExpressionConstant'"MaterialExpressionConstant_5"'
+   Expressions(46)=MaterialExpressionConstant'"MaterialExpressionConstant_6"'
+   Expressions(47)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_5"'
+   Expressions(48)=MaterialExpressionMultiply'"MaterialExpressionMultiply_9"'
+   Expressions(49)=MaterialExpressionMultiply'"MaterialExpressionMultiply_12"'
+   Expressions(50)=MaterialExpressionReroute'"MaterialExpressionReroute_0"'
+   Expressions(51)=MaterialExpressionMultiply'"MaterialExpressionMultiply_13"'
+   Expressions(52)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_2"'
+   Expressions(53)=MaterialExpressionClamp'"MaterialExpressionClamp_2"'
+   Expressions(54)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   Expressions(55)=MaterialExpressionClamp'"MaterialExpressionClamp_0"'
+   MaterialFunctionInfos(0)=(StateId=24C4DE774897BB7D851060AA7625A218,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.CreateThirdOrthogonalVector"')
+   MaterialFunctionInfos(1)=(StateId=5B938C50440B6892955AD79FCD1A8337,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.BreakOutFloat3Components"')
+   MaterialFunctionInfos(2)=(StateId=C330DE334A86FAB27255B1AC3A6AC1B4,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.Transform3x3Matrix"')
+   MaterialFunctionInfos(3)=(StateId=2C0AFCEF4B67951F85943A898827DBDF,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/TangentBasis.TangentBasis"')
+   MaterialFunctionInfos(4)=(StateId=F5C2D4774BA63455E32B4B960D7674B6,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.BlendAngleCorrectedNormals"')
+   MaterialFunctionInfos(5)=(StateId=162D6D2B48CD8C456AA56F8E93FB317B,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength.VectorLength"')
+   MaterialFunctionInfos(6)=(StateId=ECE951FC4C7C52726BF3A8A44A98443F,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/WorldPositionOffset/SplineThicken.SplineThicken"')
+   MaterialFunctionInfos(7)=(StateId=3783140F48CEFF98EA860D855064FF94,Function=MaterialFunction'"/Game/FX/Materials/Functions/FX_EmissiveModulate.FX_EmissiveModulate"')
+   MaterialFunctionInfos(8)=(StateId=594448644EC2E09830A8039D35A6C7AA,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.DebugTimeSine"')
+   MaterialFunctionInfos(9)=(StateId=594448644EC2E09830A8039D35A6C7AA,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions02/Utility/DebugTimeSine.DebugTimeSine"')
+   bCanMaskedBeAssumedOpaque=True
+   StateId=B1563E484B12DB6E3AD8FCA0A9A69E4D
+   ReferencedTextureGuids(0)=74F0EFB646F7E6AC5E89BE8BDB5888BF
+   ReferencedTextureGuids(1)=50CFE848462428802428188636EE0F83
+   ReferencedTextureGuids(2)=9B484BC146D148B89A9A4F83F689870D
+   ReferencedTextureGuids(3)=F001525547280CEFCC5ED688DBA1EE8B
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=C6A64F0B494143F199DFE6B54B7CC4E9
+End Object
